@@ -1,0 +1,515 @@
+[A] Grackle chemistry data structure.
+[A] Done
+[B] Initialize chemistry structure.
+
+The Grackle Version 3.2.dev2
+Git Branch   genchiaki_merge
+Git Revision ae8cf65665b3145d409df8dd5d3ce703bdb5ab75
+
+Initializing grackle data.
+Initializing Cloudy cooling: Metals.
+cloudy_table_file: /home/gen/grackle/input/CloudyData_noUVB.h5.
+Cloudy cooling grid rank: 2.
+Cloudy cooling grid dimensions: 29 161.
+Parameter1: -10 to 4 (29 steps).
+Temperature: 1 to 9 (161 steps).
+Reading Cloudy Cooling dataset.
+Grackle run-time parameters:
+use_grackle                       = 1
+with_radiative_cooling            = 1
+primordial_chemistry              = 4
+dust_chemistry                    = 0
+metal_cooling                     = 1
+UVbackground                      = 0
+grackle_data_file                 = /home/gen/grackle/input/CloudyData_noUVB.h5
+cmb_temperature_floor             = 1
+Gamma                             = 1.66667
+h2_on_dust                        = 1
+use_dust_density_field            = 1
+metal_chemistry                   = 1
+multi_metals                      = 0
+metal_abundances                  = 0
+dust_species                      = 3
+dust_temperature_multi            = 0
+dust_sublimation                  = 1
+grain_growth                      = 0
+photoelectric_heating             = 0
+photoelectric_heating_rate        = 0
+use_isrf_field                    = 0
+interstellar_radiation_field      = 0
+use_volumetric_heating_rate       = 0
+use_specific_heating_rate         = 0
+three_body_rate                   = 1
+cie_cooling                       = 1
+h2_optical_depth_approximation    = 1
+ih2co                             = 1
+ipiht                             = 1
+HydrogenFractionByMass            = 0.76
+DeuteriumToHydrogenRatio          = 6.8e-05
+SolarMetalFractionByMass          = 0.01295
+local_dust_to_gas_ratio           = 0.009387
+NumberOfTemperatureBins           = 600
+CaseBRecombination                = 1
+TemperatureStart                  = 1
+TemperatureEnd                    = 1e+09
+NumberOfDustTemperatureBins       = 250
+DustTemperatureStart              = 1
+DustTemperatureEnd                = 1500
+Compton_xray_heating              = 0
+LWbackground_sawtooth_suppression = 0
+LWbackground_intensity            = 0
+UVbackground_redshift_on          = -99999
+UVbackground_redshift_off         = -99999
+UVbackground_redshift_fullon      = -99999
+UVbackground_redshift_drop        = -99999
+cloudy_electron_fraction_factor   = 0.00915396
+use_radiative_transfer            = 1
+radiative_transfer_coupled_rate_solver = 0
+radiative_transfer_intermediate_step = 0
+radiative_transfer_hydrogen_only  = 0
+self_shielding_method             = 0
+H2_custom_shielding               = 0
+H2_self_shielding                 = 3
+radiative_transfer_H2II_diss      = 1
+radiative_transfer_HDI_diss       = 1
+radiative_transfer_metal_ion      = 1
+radiative_transfer_metal_diss     = 1
+OpenMP: off
+[B] Done
+[C] init_abundances
+   C_frac    -3.5776126
+   O_frac    -3.2178526
+  Mg_frac          -inf
+  Al_frac    -3.1614669
+  Si_frac    -4.1806262
+   S_frac          -inf
+  Fe_frac    -5.7951403
+d    1.00e-01   1.00e+03 
+p1   1.00e-04   1.00e+00   1.00e-04   7.89e-02   7.89e-22   7.89e-22 
+p2   1.00e-20   5.00e-07   5.00e-21 
+p3   3.40e-05   3.40e-09   2.27e-11 
+p4   3.40e-25   2.27e-25   6.32e-22 
+C    1.10e-21   7.12e-08   4.70e-22   2.99e-22 
+O    2.97e-07   7.74e-22   7.31e-22   4.11e-22 
+Si   2.13e-09   2.99e-22   2.19e-22 
+Z1   1.01e-21   9.40e-22   4.70e-22   8.22e-22   7.74e-22   7.31e-22   6.93e-22   4.11e-22 
+Z2   0.00e+00   1.94e-09   0.00e+00   5.07e-11 
+d1   6.54e-09   0.00e+00 
+d2   0.00e+00   4.12e-09   3.31e-08   0.00e+00   0.00e+00   0.00e+00   5.89e-09   0.00e+00 
+d3   2.03e-08   1.40e-07   5.99e-08 
+ENERGY   2.20082e-25   2.03962e-24   1.38065e-16   1.00000e+03   1.66667e+00   2.23466e-14 
+[C] done
+COMP TIME     8.4062500 sec      2112 loops     0.0039802 sec/loop
+Elapsed time     2.9657557 Myr
+[A] Grackle chemistry data structure.
+[A] Done
+[B] Initialize chemistry structure.
+
+The Grackle Version 3.2.dev2
+Git Branch   genchiaki_merge
+Git Revision ae8cf65665b3145d409df8dd5d3ce703bdb5ab75
+
+Initializing grackle data.
+Initializing Cloudy cooling: Metals.
+cloudy_table_file: /home/gen/grackle/input/CloudyData_noUVB.h5.
+Cloudy cooling grid rank: 2.
+Cloudy cooling grid dimensions: 29 161.
+Parameter1: -10 to 4 (29 steps).
+Temperature: 1 to 9 (161 steps).
+Reading Cloudy Cooling dataset.
+Grackle run-time parameters:
+use_grackle                       = 1
+with_radiative_cooling            = 1
+primordial_chemistry              = 4
+dust_chemistry                    = 0
+metal_cooling                     = 1
+UVbackground                      = 0
+grackle_data_file                 = /home/gen/grackle/input/CloudyData_noUVB.h5
+cmb_temperature_floor             = 1
+Gamma                             = 1.66667
+h2_on_dust                        = 1
+use_dust_density_field            = 1
+metal_chemistry                   = 1
+multi_metals                      = 0
+metal_abundances                  = 0
+dust_species                      = 3
+dust_temperature_multi            = 0
+dust_sublimation                  = 1
+grain_growth                      = 0
+photoelectric_heating             = 0
+photoelectric_heating_rate        = 0
+use_isrf_field                    = 0
+interstellar_radiation_field      = 0
+use_volumetric_heating_rate       = 0
+use_specific_heating_rate         = 0
+three_body_rate                   = 1
+cie_cooling                       = 1
+h2_optical_depth_approximation    = 1
+ih2co                             = 1
+ipiht                             = 1
+HydrogenFractionByMass            = 0.76
+DeuteriumToHydrogenRatio          = 6.8e-05
+SolarMetalFractionByMass          = 0.01295
+local_dust_to_gas_ratio           = 0.009387
+NumberOfTemperatureBins           = 600
+CaseBRecombination                = 1
+TemperatureStart                  = 1
+TemperatureEnd                    = 1e+09
+NumberOfDustTemperatureBins       = 250
+DustTemperatureStart              = 1
+DustTemperatureEnd                = 1500
+Compton_xray_heating              = 0
+LWbackground_sawtooth_suppression = 0
+LWbackground_intensity            = 0
+UVbackground_redshift_on          = -99999
+UVbackground_redshift_off         = -99999
+UVbackground_redshift_fullon      = -99999
+UVbackground_redshift_drop        = -99999
+cloudy_electron_fraction_factor   = 0.00915396
+use_radiative_transfer            = 1
+radiative_transfer_coupled_rate_solver = 0
+radiative_transfer_intermediate_step = 0
+radiative_transfer_hydrogen_only  = 0
+self_shielding_method             = 0
+H2_custom_shielding               = 0
+H2_self_shielding                 = 3
+radiative_transfer_H2II_diss      = 1
+radiative_transfer_HDI_diss       = 1
+radiative_transfer_metal_ion      = 1
+radiative_transfer_metal_diss     = 1
+OpenMP: off
+[B] Done
+[C] init_abundances
+   C_frac    -3.5776126
+   O_frac    -3.2178526
+  Mg_frac          -inf
+  Al_frac    -3.1614669
+  Si_frac    -4.1806262
+   S_frac          -inf
+  Fe_frac    -5.7951403
+d    1.00e-01   1.00e+03 
+p1   1.00e-04   1.00e+00   1.00e-04   7.89e-02   7.89e-22   7.89e-22 
+p2   1.00e-20   5.00e-07   5.00e-21 
+p3   3.40e-05   3.40e-09   2.27e-11 
+p4   3.40e-25   2.27e-25   6.32e-22 
+C    1.10e-21   7.12e-08   4.70e-22   2.99e-22 
+O    2.97e-07   7.74e-22   7.31e-22   4.11e-22 
+Si   2.13e-09   2.99e-22   2.19e-22 
+Z1   1.01e-21   9.40e-22   4.70e-22   8.22e-22   7.74e-22   7.31e-22   6.93e-22   4.11e-22 
+Z2   0.00e+00   1.94e-09   0.00e+00   5.07e-11 
+d1   6.54e-09   0.00e+00 
+d2   0.00e+00   4.12e-09   3.31e-08   0.00e+00   0.00e+00   0.00e+00   5.89e-09   0.00e+00 
+d3   2.03e-08   1.40e-07   5.99e-08 
+ENERGY   2.20082e-25   2.03962e-24   1.38065e-16   1.00000e+03   1.66667e+00   2.23466e-14 
+[C] done
+COMP TIME     7.6875000 sec      2118 loops     0.0036296 sec/loop
+Elapsed time     3.0212936 Myr
+[A] Grackle chemistry data structure.
+[A] Done
+[B] Initialize chemistry structure.
+
+The Grackle Version 3.2.dev2
+Git Branch   genchiaki_merge
+Git Revision ae8cf65665b3145d409df8dd5d3ce703bdb5ab75
+
+Initializing grackle data.
+Initializing Cloudy cooling: Metals.
+cloudy_table_file: /home/gen/grackle/input/CloudyData_noUVB.h5.
+Cloudy cooling grid rank: 2.
+Cloudy cooling grid dimensions: 29 161.
+Parameter1: -10 to 4 (29 steps).
+Temperature: 1 to 9 (161 steps).
+Reading Cloudy Cooling dataset.
+Grackle run-time parameters:
+use_grackle                       = 1
+with_radiative_cooling            = 1
+primordial_chemistry              = 4
+dust_chemistry                    = 0
+metal_cooling                     = 1
+UVbackground                      = 0
+grackle_data_file                 = /home/gen/grackle/input/CloudyData_noUVB.h5
+cmb_temperature_floor             = 1
+Gamma                             = 1.66667
+h2_on_dust                        = 1
+use_dust_density_field            = 1
+metal_chemistry                   = 1
+multi_metals                      = 0
+metal_abundances                  = 0
+dust_species                      = 3
+dust_temperature_multi            = 0
+dust_sublimation                  = 1
+grain_growth                      = 0
+photoelectric_heating             = 0
+photoelectric_heating_rate        = 0
+use_isrf_field                    = 0
+interstellar_radiation_field      = 0
+use_volumetric_heating_rate       = 0
+use_specific_heating_rate         = 0
+three_body_rate                   = 1
+cie_cooling                       = 1
+h2_optical_depth_approximation    = 1
+ih2co                             = 1
+ipiht                             = 1
+HydrogenFractionByMass            = 0.76
+DeuteriumToHydrogenRatio          = 6.8e-05
+SolarMetalFractionByMass          = 0.01295
+local_dust_to_gas_ratio           = 0.009387
+NumberOfTemperatureBins           = 600
+CaseBRecombination                = 1
+TemperatureStart                  = 1
+TemperatureEnd                    = 1e+09
+NumberOfDustTemperatureBins       = 250
+DustTemperatureStart              = 1
+DustTemperatureEnd                = 1500
+Compton_xray_heating              = 0
+LWbackground_sawtooth_suppression = 0
+LWbackground_intensity            = 0
+UVbackground_redshift_on          = -99999
+UVbackground_redshift_off         = -99999
+UVbackground_redshift_fullon      = -99999
+UVbackground_redshift_drop        = -99999
+cloudy_electron_fraction_factor   = 0.00915396
+use_radiative_transfer            = 1
+radiative_transfer_coupled_rate_solver = 0
+radiative_transfer_intermediate_step = 0
+radiative_transfer_hydrogen_only  = 0
+self_shielding_method             = 0
+H2_custom_shielding               = 0
+H2_self_shielding                 = 3
+radiative_transfer_H2II_diss      = 1
+radiative_transfer_HDI_diss       = 1
+radiative_transfer_metal_ion      = 1
+radiative_transfer_metal_diss     = 1
+OpenMP: off
+[B] Done
+[C] init_abundances
+   C_frac    -3.5776126
+   O_frac    -3.2178526
+  Mg_frac          -inf
+  Al_frac    -3.1614669
+  Si_frac    -4.1806262
+   S_frac          -inf
+  Fe_frac    -5.7951403
+d    1.00e-01   1.00e+03 
+p1   1.00e-04   1.00e+00   1.00e-04   7.89e-02   7.89e-22   7.89e-22 
+p2   1.00e-20   5.00e-07   5.00e-21 
+p3   3.40e-05   3.40e-09   2.27e-11 
+p4   3.40e-25   2.27e-25   6.32e-22 
+C    1.10e-21   7.12e-08   4.70e-22   2.99e-22 
+O    2.97e-07   7.74e-22   7.31e-22   4.11e-22 
+Si   2.13e-09   2.99e-22   2.19e-22 
+Z1   1.01e-21   9.40e-22   4.70e-22   8.22e-22   7.74e-22   7.31e-22   6.93e-22   4.11e-22 
+Z2   0.00e+00   1.94e-09   0.00e+00   5.07e-11 
+d1   6.54e-09   0.00e+00 
+d2   0.00e+00   4.12e-09   3.31e-08   0.00e+00   0.00e+00   0.00e+00   5.89e-09   0.00e+00 
+d3   2.03e-08   1.40e-07   5.99e-08 
+ENERGY   2.20082e-25   2.03962e-24   1.38065e-16   1.00000e+03   1.66667e+00   2.23466e-14 
+[C] done
+COMP TIME     7.5000000 sec      2091 loops     0.0035868 sec/loop
+Elapsed time     3.1142323 Myr
+[A] Grackle chemistry data structure.
+[A] Done
+[B] Initialize chemistry structure.
+
+The Grackle Version 3.2.dev2
+Git Branch   genchiaki_merge
+Git Revision ae8cf65665b3145d409df8dd5d3ce703bdb5ab75
+
+Initializing grackle data.
+Initializing Cloudy cooling: Metals.
+cloudy_table_file: /home/gen/grackle/input/CloudyData_noUVB.h5.
+Cloudy cooling grid rank: 2.
+Cloudy cooling grid dimensions: 29 161.
+Parameter1: -10 to 4 (29 steps).
+Temperature: 1 to 9 (161 steps).
+Reading Cloudy Cooling dataset.
+Grackle run-time parameters:
+use_grackle                       = 1
+with_radiative_cooling            = 1
+primordial_chemistry              = 4
+dust_chemistry                    = 0
+metal_cooling                     = 1
+UVbackground                      = 0
+grackle_data_file                 = /home/gen/grackle/input/CloudyData_noUVB.h5
+cmb_temperature_floor             = 1
+Gamma                             = 1.66667
+h2_on_dust                        = 1
+use_dust_density_field            = 1
+metal_chemistry                   = 1
+multi_metals                      = 0
+metal_abundances                  = 0
+dust_species                      = 3
+dust_temperature_multi            = 0
+dust_sublimation                  = 1
+grain_growth                      = 0
+photoelectric_heating             = 0
+photoelectric_heating_rate        = 0
+use_isrf_field                    = 0
+interstellar_radiation_field      = 0
+use_volumetric_heating_rate       = 0
+use_specific_heating_rate         = 0
+three_body_rate                   = 1
+cie_cooling                       = 1
+h2_optical_depth_approximation    = 1
+ih2co                             = 1
+ipiht                             = 1
+HydrogenFractionByMass            = 0.76
+DeuteriumToHydrogenRatio          = 6.8e-05
+SolarMetalFractionByMass          = 0.01295
+local_dust_to_gas_ratio           = 0.009387
+NumberOfTemperatureBins           = 600
+CaseBRecombination                = 1
+TemperatureStart                  = 1
+TemperatureEnd                    = 1e+09
+NumberOfDustTemperatureBins       = 250
+DustTemperatureStart              = 1
+DustTemperatureEnd                = 1500
+Compton_xray_heating              = 0
+LWbackground_sawtooth_suppression = 0
+LWbackground_intensity            = 0
+UVbackground_redshift_on          = -99999
+UVbackground_redshift_off         = -99999
+UVbackground_redshift_fullon      = -99999
+UVbackground_redshift_drop        = -99999
+cloudy_electron_fraction_factor   = 0.00915396
+use_radiative_transfer            = 1
+radiative_transfer_coupled_rate_solver = 0
+radiative_transfer_intermediate_step = 0
+radiative_transfer_hydrogen_only  = 0
+self_shielding_method             = 0
+H2_custom_shielding               = 0
+H2_self_shielding                 = 3
+radiative_transfer_H2II_diss      = 1
+radiative_transfer_HDI_diss       = 1
+radiative_transfer_metal_ion      = 1
+radiative_transfer_metal_diss     = 1
+OpenMP: off
+[B] Done
+[C] init_abundances
+   C_frac    -3.5776126
+   O_frac    -3.2178526
+  Mg_frac          -inf
+  Al_frac    -3.1614669
+  Si_frac    -4.1806262
+   S_frac          -inf
+  Fe_frac    -5.7951403
+d    1.00e-01   1.00e+03 
+p1   1.00e-04   1.00e+00   1.00e-04   7.89e-02   7.89e-22   7.89e-22 
+p2   1.00e-20   5.00e-07   5.00e-21 
+p3   3.40e-05   3.40e-09   2.27e-11 
+p4   3.40e-25   2.27e-25   6.32e-22 
+C    1.10e-21   7.12e-08   4.70e-22   2.99e-22 
+O    2.97e-07   7.74e-22   7.31e-22   4.11e-22 
+Si   2.13e-09   2.99e-22   2.19e-22 
+Z1   1.01e-21   9.40e-22   4.70e-22   8.22e-22   7.74e-22   7.31e-22   6.93e-22   4.11e-22 
+Z2   0.00e+00   1.94e-09   0.00e+00   5.07e-11 
+d1   6.54e-09   0.00e+00 
+d2   0.00e+00   4.12e-09   3.31e-08   0.00e+00   0.00e+00   0.00e+00   5.89e-09   0.00e+00 
+d3   2.03e-08   1.40e-07   5.99e-08 
+ENERGY   2.20082e-25   2.03962e-24   1.38065e-16   1.00000e+03   1.66667e+00   2.23466e-14 
+[C] done
+COMP TIME     7.2500000 sec      2045 loops     0.0035452 sec/loop
+Elapsed time     3.4708102 Myr
+[A] Grackle chemistry data structure.
+[A] Done
+[B] Initialize chemistry structure.
+
+The Grackle Version 3.2.dev2
+Git Branch   genchiaki_merge
+Git Revision ae8cf65665b3145d409df8dd5d3ce703bdb5ab75
+
+Initializing grackle data.
+Initializing Cloudy cooling: Metals.
+cloudy_table_file: /home/gen/grackle/input/CloudyData_noUVB.h5.
+Cloudy cooling grid rank: 2.
+Cloudy cooling grid dimensions: 29 161.
+Parameter1: -10 to 4 (29 steps).
+Temperature: 1 to 9 (161 steps).
+Reading Cloudy Cooling dataset.
+Grackle run-time parameters:
+use_grackle                       = 1
+with_radiative_cooling            = 1
+primordial_chemistry              = 4
+dust_chemistry                    = 0
+metal_cooling                     = 1
+UVbackground                      = 0
+grackle_data_file                 = /home/gen/grackle/input/CloudyData_noUVB.h5
+cmb_temperature_floor             = 1
+Gamma                             = 1.66667
+h2_on_dust                        = 1
+use_dust_density_field            = 1
+metal_chemistry                   = 1
+multi_metals                      = 0
+metal_abundances                  = 0
+dust_species                      = 3
+dust_temperature_multi            = 0
+dust_sublimation                  = 1
+grain_growth                      = 0
+photoelectric_heating             = 0
+photoelectric_heating_rate        = 0
+use_isrf_field                    = 0
+interstellar_radiation_field      = 0
+use_volumetric_heating_rate       = 0
+use_specific_heating_rate         = 0
+three_body_rate                   = 1
+cie_cooling                       = 1
+h2_optical_depth_approximation    = 1
+ih2co                             = 1
+ipiht                             = 1
+HydrogenFractionByMass            = 0.76
+DeuteriumToHydrogenRatio          = 6.8e-05
+SolarMetalFractionByMass          = 0.01295
+local_dust_to_gas_ratio           = 0.009387
+NumberOfTemperatureBins           = 600
+CaseBRecombination                = 1
+TemperatureStart                  = 1
+TemperatureEnd                    = 1e+09
+NumberOfDustTemperatureBins       = 250
+DustTemperatureStart              = 1
+DustTemperatureEnd                = 1500
+Compton_xray_heating              = 0
+LWbackground_sawtooth_suppression = 0
+LWbackground_intensity            = 0
+UVbackground_redshift_on          = -99999
+UVbackground_redshift_off         = -99999
+UVbackground_redshift_fullon      = -99999
+UVbackground_redshift_drop        = -99999
+cloudy_electron_fraction_factor   = 0.00915396
+use_radiative_transfer            = 1
+radiative_transfer_coupled_rate_solver = 0
+radiative_transfer_intermediate_step = 0
+radiative_transfer_hydrogen_only  = 0
+self_shielding_method             = 0
+H2_custom_shielding               = 0
+H2_self_shielding                 = 3
+radiative_transfer_H2II_diss      = 1
+radiative_transfer_HDI_diss       = 1
+radiative_transfer_metal_ion      = 1
+radiative_transfer_metal_diss     = 1
+OpenMP: off
+[B] Done
+[C] init_abundances
+   C_frac    -3.5776126
+   O_frac    -3.2178526
+  Mg_frac          -inf
+  Al_frac    -3.1614669
+  Si_frac    -4.1806262
+   S_frac          -inf
+  Fe_frac    -5.7951403
+d    1.00e-01   1.00e+03 
+p1   1.00e-04   1.00e+00   1.00e-04   7.89e-02   7.89e-22   7.89e-22 
+p2   1.00e-20   5.00e-07   5.00e-21 
+p3   3.40e-05   3.40e-09   2.27e-11 
+p4   3.40e-25   2.27e-25   6.32e-22 
+C    1.10e-21   7.12e-08   4.70e-22   2.99e-22 
+O    2.97e-07   7.74e-22   7.31e-22   4.11e-22 
+Si   2.13e-09   2.99e-22   2.19e-22 
+Z1   1.01e-21   9.40e-22   4.70e-22   8.22e-22   7.74e-22   7.31e-22   6.93e-22   4.11e-22 
+Z2   0.00e+00   1.94e-09   0.00e+00   5.07e-11 
+d1   6.54e-09   0.00e+00 
+d2   0.00e+00   4.12e-09   3.31e-08   0.00e+00   0.00e+00   0.00e+00   5.89e-09   0.00e+00 
+d3   2.03e-08   1.40e-07   5.99e-08 
+ENERGY   2.20082e-25   2.03962e-24   1.38065e-16   1.00000e+03   1.66667e+00   2.23466e-14 
+[C] done
+COMP TIME     7.3906250 sec      2051 loops     0.0036034 sec/loop
+Elapsed time     3.4835345 Myr
